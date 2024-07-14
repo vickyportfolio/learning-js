@@ -43,3 +43,10 @@ function sayHi() {
 }
 sayHi();
 console.log(isData);
+
+/* note: 
+use const always if you know the value will not gonna change
+use capital for hardcode values like example below:
+*/
+// const COLOR_ORANGE = '#ff0Bfc2';
+// const age = sayHi(COLOR_ORANGE) run time evaluation use small letter;
